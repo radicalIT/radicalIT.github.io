@@ -8,5 +8,8 @@
 </head>
 <body>
     no elo xD
+    <?php
+    echo "elo elo";
+    ?>
 </body>
 </html>
