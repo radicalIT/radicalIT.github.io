@@ -142,3 +142,7 @@ body
     height: 24vh;
     text-align: center;
 }
+#container i
+{
+    font-size: 10vh;
+}
