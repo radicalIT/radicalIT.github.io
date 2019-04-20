@@ -1,0 +1,114 @@
+body
+{
+    background-color: #5133AB;
+    font-family: 'Inconsolata', monospace;
+}
+*
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#header
+{
+    background-color: #AC193D;
+    padding: 2vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+#container
+{
+    margin: 10vh auto 5vh auto;
+    width: 90%;
+}
+#footer
+{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2vh;
+    text-align: center;
+    font-size: 1.5vh;
+}
+#header h1
+{
+    float: left;
+}
+#clock
+{
+    float: left;
+    text-align: right;
+    background-color: #ffffff;
+}
+.cb
+{
+    clear: both;
+}
+.column
+{
+    float: left;
+    width: 49%;
+}
+
+#right
+{
+    margin: 0 0 0 1%;
+}
+#left
+{
+    margin: 0 1% 0 0;
+}
+
+.tile
+{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-bottom: 2%;
+    padding: 5%;
+    height: 10vw;
+}
+.tile:first-child
+{
+    height: 25.3vw;
+}
+.tile2
+{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin-bottom: 2%;
+}
+
+.tile4
+{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.tile2 .smallTile:first-child
+{
+    margin-right: 2%;
+    background-color: #ffffff;
+}
+
+.tile4 .smallTile:first-child
+{
+    width: 15%;
+    margin-left: 0;
+}
+
+.tile2 .smallTile
+{
+    padding: 5%;
+    width: 39%;
+    height: 10vw;
+    float: left;
+    background-color: #008A00;
+}
+
+.tile4 .smallTile
+{
+    padding: 5%;
+    width: 14%;
+    float: left;
+    background-color: #008A00;
+    margin-left: 1%;
+    height: 10vw;
+}
