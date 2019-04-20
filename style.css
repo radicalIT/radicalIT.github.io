@@ -128,6 +128,22 @@ td:hover
 {
     text-align: left;
 }
+#content table
+{
+    width: 100%;
+    height: 100%;
+}
+#content td
+{
+    background-color: #2B8E00;
+    overflow: hidden;
+    padding: 0;
+    width: 10vw;
+}
+#content img
+{
+    width: 15vw;
+}
 #ml
 {
     background-color: #0072C6;
