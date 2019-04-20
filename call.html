@@ -14,7 +14,7 @@
     <div id="header">
         <div id="headbar">
             <div id="name">
-                    <i class="icon-github"></i>radicalIT</div>
+                <i class="icon-github"></i>radicalIT</div>
             <div id="clock"></div>
         </div>
     </div>
@@ -22,32 +22,43 @@
     <div id="container">
         <table>
             <tr>
-                <td class="option">
+                <td class="option" id="opt1" onclick='load("index.html")'>
                     <i class="icon-user"></i>
+                    <h2>O mnie</h2>
                 </td>
-                <td class="option">
+                <td class="option" id="opt2" onclick='load("cv.html")'>
                     <i class="icon-clipboard"></i>
+                    <h2>Curriculum Vitae</h2>
                 </td>
-                <td rowspan="2" colspan="3" id="content">content</td>
+                <td rowspan="2" colspan="3" id="content">
+                    Możesz się ze mną skontaktować pod numerem telefonu: <br><br>
+                    <h2>531 343 548</h2>
+                </td>
             </tr>
             <tr>
-                <td class="option">
+                <td class="option" id="opt3" onclick='load("projects.html")'>
                     <i class="icon-picture"></i>
+                    <h2>Moje projekty</h2>
                 </td>
-                <td class="option">
+                <td class="option" id="opt4" onclick='load("call.html")'>
                     <i class="icon-phone"></i>
+                    <h2>Zadzwoń</h2>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" id="longbar">quote</td>
-                <td class="social">
-                    <i class="icon-facebook"></i>
+                <td colspan="2" id="longbar">"Serce Leniwego czeka bez skutku,<br>
+                    a pilnych zamiary stale się spełniają"<br>
+                    (Prz 13, 4)
                 </td>
-                <td class="social">
+                
+                <td class="social" id="ml" onclick='load("mailto:k.osika@outlook.com?")'>
                     <i class="icon-mail"></i>
                 </td>
-                <td class="social">
+                <td class="social" id="gh" onclick='load("http://www.github.com/radicalIT")'>
                     <i class="icon-github"></i>
+                </td>
+                <td class="social" id="fb" onclick='load("http://www.facebook.com/Kaceper15")'>
+                    <i class="icon-facebook"></i>
                 </td>
             </tr>
         </table>

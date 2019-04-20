@@ -1,3 +1,7 @@
+function load(page)
+{
+    window.location.href = page;
+}
 function refreshDate()
 {
     const clockDiv = document.getElementById("clock");

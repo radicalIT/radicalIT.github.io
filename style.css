@@ -1,6 +1,6 @@
 body
 {
-    background-color: #FF7F00;
+    background-color: #FFC140;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -18,7 +18,7 @@ body
 
 #header
 {
-    background-color: #EF002A;
+    background-color: #FF7F00;
     padding: 2vh;
     height: 6vh;
     position: fixed;
@@ -68,30 +68,27 @@ body
     width: 90vw;
 }
 
-.column
+table
 {
-    width: 50%;
-    float: left;
-    height: 100%;
-}
-
-#options
-{
-    height: 66%;
-}
-
-.option
-{
-    float: left;
-    width: 21.8vw;
-    margin: 0.7vh 0 0 0.45vw;
     text-align: center;
-    height: 48%;
+    width: 90vw;
+    height: 70vh;
+    border-spacing: 1vw 1vh;
 }
-
+td
+{
+    border-radius: 1vw;
+    border-right: 0.5vw solid rgba(0, 0, 0, 0.5);
+    padding-right: 0.5vw;
+}
+td:hover
+{
+    border-right: 1vw solid rgba(0, 0, 0, 0.5);
+    padding-right: 0;
+}
 #opt1
 {
-    background-color: #04819E;
+    background-color: #0072C6;
 }
 
 #opt2
@@ -101,47 +98,49 @@ body
 
 #opt3
 {
-    background-color: #F73E5F;
+    background-color: #FF7F00;
 }
 
 #opt4
 {
-    background-color: rgb(51, 93, 171);
+    background-color: #3b5998;
 }
 
+.option h2
+{
+    font-weight: inherit;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+}
 
 #longbar
 {
-    background-color: #00A67C;
-    height: 32%;
-    margin: 1% 0.45vw;
-    width: 98%;
+    background-color: #2B8E00;
 }
 
 #content
 {
-    height: 54%;
-    width: 88%;
-    padding: 3.8vh 2.25vw;
-    margin: 0.7vh 0.45vw;
-    background-color: #5E2580;
-    overflow: hidden;
+    background-color: #FF7F00;
+    width: 50%;
+    padding: 5%;
+}
+#content ul
+{
+    text-align: left;
+}
+#ml
+{
+    background-color: #0072C6;
+}
+#gh
+{
+    background-color: #FFFFFF;
+}
+#fb
+{
+    background-color: #3b5998;
 }
 
-#socials
-{
-    height: 34%;
-}
-
-.social
-{
-    float: left;
-    background-color: #AAAAAA;
-    margin: 0.7vh 0 0.7vh 0.45vw;
-    width: 14.4vw;
-    height: 24vh;
-    text-align: center;
-}
 #container i
 {
     font-size: 10vh;
