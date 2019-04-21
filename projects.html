@@ -8,13 +8,15 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="shortcut icon" href="https://www.iconsdb.com/icons/download/black/github-10-64.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="fontello/css/fontello.css">
 </head>
 <body>
     <div id="header">
-        <div id="headbar">
+        <div id="headbar" onclick='load("index.html")'>
             <div id="name">
-                <i class="icon-github"></i>radicalIT</div>
+                <i class="icon-github" ></i>radicalIT
+            </div>
             <div id="clock"></div>
         </div>
     </div>
@@ -33,12 +35,12 @@
                 <td rowspan="2" colspan="3" id="content">
                     <table>
                         <tr>
-                            <td><img src="img/proj1.png" alt=""></td>
-                            <td><img src="img/proj1.png" alt=""></td>
+                            <td><img src="img/proj1.png" onclick='load("Projects/project1.html")'></td>
+                            <td><img src="img/proj1.png" onclick='load("Projects/project2.html")'></td>
                         </tr>
                         <tr>
-                            <td><img src="img/proj1.png" alt=""></td>
-                            <td><img src="img/proj1.png" alt=""></td>
+                            <td><img src="img/proj1.png" onclick='load("Projects/project3.html")'></td>
+                            <td><img src="img/proj1.png" onclick='load("Projects/project4.html")'></td>
                         </tr>
                     </table>
                 </td>

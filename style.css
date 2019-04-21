@@ -161,3 +161,13 @@ td:hover
 {
     font-size: 10vh;
 }
+#projImgs
+{
+    background-color: #0072C6;
+}
+#projImgs img
+{
+    width: 45%;
+    border-radius: 1vw;
+    margin: 2vh;
+}
