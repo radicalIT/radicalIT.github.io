@@ -1,7 +1,7 @@
 body
 {
     background-color: #FFC140;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Raleway', sans-serif;
 }
 
 *
@@ -116,6 +116,7 @@ td:hover
 #longbar
 {
     background-color: #2B8E00;
+    font-size: 2vw;
 }
 
 #content
@@ -123,6 +124,7 @@ td:hover
     background-color: #FF7F00;
     width: 50%;
     padding: 5%;
+    font-size: 1.5vw;
 }
 #content ul
 {
