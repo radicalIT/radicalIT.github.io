@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "title": "Nowy Tytul",
+      "body": "Treść posta"
+    },
+    {
+      "id": 1,
+      "title": "Drugi Tytul",
+      "body": "dłuższa Treść posta<br><h2>abc</h2>"
+    }
+
+  ]
+}
